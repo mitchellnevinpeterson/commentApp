@@ -1,0 +1,40 @@
+/*Google Fonts*/
+.shadows-font {
+	font-family: 'Shadows Into Light', cursive;
+}
+
+.audio-font {
+	font-family: 'Audiowide', cursive;
+}
+
+/*Adding style to the Comments posted by user*/
+h5 {
+	margin: 15px 0;
+	font-size: 26px;
+	font-weight: bold;
+	text-decoration: underline;
+	color: #fff;
+	text-shadow: 2px 2px 1px #000;
+}
+
+p {
+	font-size: 20px;
+	color: #fff;
+	text-shadow: 2px 2px 1px #000;
+}
+
+/*Making the form appearance better*/
+input, textarea, button {
+	margin-top: 20px;
+}
+
+h1 {
+	color: #fff;
+	text-shadow: 2px 2px 1px #000;
+}
+
+/*Adding a background to the whole page*/
+body {
+	background-image: url("../img/background.jpg");
+	background-size: cover;
+}
