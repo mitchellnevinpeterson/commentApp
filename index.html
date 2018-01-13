@@ -25,10 +25,10 @@
   <body>
 <form class="text-center">
     <h1 class="audio-font">What is on your mind today?</h1>
-    <input id="nameInput" style="width: 90%;" placeholder="Name" class="form-control mx-auto">
-    <textarea id="commentInput" style="width: 90%;" placeholder="Comment" class="form-control mx-auto"></textarea>
+    <input id="nameInput" style="width: 90%; max-width: 500px;" placeholder="Name" class="form-control mx-auto text-center">
+    <textarea id="commentInput" style="width: 90%; height: 200px; max-width: 500px;" placeholder="Comment" class="form-control mx-auto text-center"></textarea>
     <div class="btn-wrap">
-    <button id="post" type="button" onclick="postComment()" class="mx-auto btn btn-dark" style="width: 59px;">Post</button>
+    <button id="post" type="button" onclick="postComment()" class="mx-auto btn btn-dark" style="width: 200px;">Post Comment</button>
     </div>
 </form>
 <section id="addComment" class="text-center">
